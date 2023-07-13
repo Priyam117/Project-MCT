@@ -1,0 +1,392 @@
+/* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body{
+    font-family: 'Muli', sans-serif;
+    width: 100vw;
+    height: 1000px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-up{
+    background-color: #ffe400;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-up-title{
+    padding: 0.9em;
+    font-size: 15px;
+    font-weight: 500;
+}
+.navigation{
+        display: flex;
+        /* background-color: black; */
+        /* padding: 0.8em 1em 0.1em 1em; */
+        justify-content: space-between;
+        color: white;
+        background: rgb(8, 8, 32);
+        border: none;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+}
+.nav-left{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.nav-middle{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.middle-up{
+    width: 100%;
+    height: 50%;
+}
+.middle-up ul{
+    margin-top: 1em;
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.middle-up ul li select{
+    width: 100px;
+    color: white;
+    background: rgb(8, 8, 32);
+}
+.middle-up ul li select {
+    border: none;
+    outline: none;
+  }
+.middle-down{
+    width: 100%;
+    height: 50%;
+    margin-top: 0.3em;
+    margin-left: 3.5em;
+}
+.middle-down button{
+    margin-left: 2em;
+    height: 35px;
+    width: 110px;
+    color: rgb(51, 50, 50);
+    background: #ffe400;
+    /* border: 1px solid yellow; */
+}
+.nav-right{
+    width: 15%;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+}
+.nav-right button{
+    height: 30px;
+    color: yellow;
+    background: #000;
+    border: 1px solid yellow;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+    margin-top: 1em;
+    margin-left: -1.8em;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.section-heading{
+ text-align: center;
+}
+.section-heading p{
+    font-size: 35px;
+    font-weight: 800;
+}
+/* .section-img{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+    align-items: flex-end;
+}
+.section-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.section-title p{
+    color: gray;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 45px;
+} */
+.img-title{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 8em; */
+}
+.img-title img {
+    padding-bottom: 1em;
+}
+.img span p  {
+    max-width: 100px;
+    color: gray;
+    font-weight: 600;
+    font-size: 18px;
+}
+.offer{
+    background:url(https://goldsgym.in/assets/frontend/css/workbaner.jpg) ;
+}
+
+.container1{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container1a{
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+.container1aa{
+    margin: auto;
+    font-size: 35px;
+    font-weight: 400;
+    color: #ffe400;
+}
+.container1ab{
+    margin: auto;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffe400;
+}
+.button{
+    text-decoration: none;
+    border-radius: 0;
+    border: 1px solid #ffe400f7 ;
+    color: #ffe400f7;
+
+}
+.container1a a{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img{
+    margin: auto;
+    align-items: center;
+}
+.getInTouch{
+    margin-top: 3em;
+    display: flex;
+    /* width: 100vw; */
+}
+.getInTouch-left{
+    width: 55%;
+    text-align: center;
+    margin-left: 7em;
+    /* display: flex;
+    flex-direction: column; */
+}
+.getInTouch-left span i{
+    padding-bottom: 2em;
+    display: inline;
+    font-size: 32px;
+}
+.getInTouch-left div{
+    margin-top: 2em;
+}
+.getInTouch-right{
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+.getInTouch-right .spn {
+  display: flex;
+  margin-left: 6.8em;
+}
+.spn p{
+    font-size: 28px;
+}
+
+.getInTouch-right select {
+    margin-top: 1em;
+    margin-left: 3.3em;
+    width: 380px;
+    padding: 0.44em;
+    outline: blue;
+}
+.getInTouch-right input{
+    margin-top: 1em;
+    margin-left: 3.3em;
+    width: 380px;
+    padding: 0.44em;
+    outline: blue;
+}
+.chkbox{
+    height: 60px;
+    width: 300px;
+    margin-top: 1em;
+    margin-left: 3.3em;
+    padding: 0.2em;
+    background-color: rgb(220, 218, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chkbox input{
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+    margin-left: -1.5em;
+}
+.chkbox p{
+    margin-top: 20px;
+}
+.chkbox img{
+    height: 40px;
+    width: auto;
+}
+.btn button{
+    background-color: #ffe400;
+    width: 10em;
+    height: 3em;
+    border: 0.1px solid black;
+    margin-left: -16em;
+}
+.lower{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lower-up h1{
+    display: flex;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 35px;
+    row-gap: 25px;
+  }
+
+  .grid-item {
+    background-color: #ffffff;
+    width: 360px;
+    padding: 7px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+  .grid-item p{
+    font-weight: bold;
+  }
+  .grid-item button{
+    background-color: #ffe400;
+    padding: 0.1em;
+    width: 5em;
+    border: 0.1px solid black;
+    font-style: italic;
+  }
+  .lower1{
+    margin-top: 2em;
+    background-color: #000;
+    padding: 0.1em;
+    /* display: flex; */
+  }
+  .lower1-title h1{
+
+    margin-top: 1em;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+  }
+  .lower1-subtitle{
+    display: flex;
+  }
+  .subtitle-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+  .subtitle-left p{
+    max-width: 350px;
+    color: white;
+    font-weight: 600;
+    margin-left: 8em;
+    margin-top: 6em;
+  }
+  .subtitle-right{
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  .subtitle-right img{
+    height: 250px;
+    margin-top: 2em;
+    margin-left: 5em;
+  }
+.lower2{
+    background:url(https://goldsgym.in/assets/frontend/css/workbaner.jpg) ;
+
+}
+.lower2-title{
+    text-align: center;
+    background-color:rgba(0,57,97,.76);
+}
+.lower2-title h1{
+
+    padding-top: 1em;
+}
+.lower2-title p{
+
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: -1.6em;
+}
+.lower2-middle{
+    background-color:rgba(0,57,97,.76);
+    margin-top: 2em;
+    display: flex;
+    justify-content:center;
+    gap: 2em;
+}
+.lower2-middle img{
+    margin-top: 4em;
+}
+.lower2-down{
+    background-color:rgba(0,57,97,.76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower2-down .btn{
+    margin-top: 2em;
+    background-color: #ffe400;
+    width: 10em;
+    height: 3em;
+    border: 0.1px solid black;
+
+}
+
+
+
